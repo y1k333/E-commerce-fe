@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-fe",
+  "version": "1.0.0",
+  "description": "front-end of ecommerce web",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^1.15.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.1",
+    "webpack-dev-server": "^1.16.4"
+  },
+  "scripts": {
+    "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
+    "dist": "WEBPACK_ENV=online webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y1k333/E-commerce-fe.git"
+  },
+  "author": "KaiYang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y1k333/E-commerce-fe/issues"
+  },
+  "homepage": "https://github.com/y1k333/E-commerce-fe#readme"
+}
