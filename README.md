@@ -1,2 +1,2 @@
-# E-commerce-fe
-A E-commerce website- front end
+# Second-hand Goods Trading platform
+A Second-hand Goods Trading platform website front end
