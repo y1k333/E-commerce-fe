@@ -2,4 +2,5 @@
 'use strict'
 
 var _mm = require('util/mm.js');
-console.log(_mm.getUrlParam('test'));
+require('page/common/nav/index.js')
+require('page/result/index.js')
